@@ -15,13 +15,13 @@ export default function TopBar() {
   }
 
   return (
-    <section className="bg-primary py-1 d-none d-sm-block">
+    <section className="bg-dark py-1 d-none d-sm-block">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-auto d-none d-lg-block">
             <div className="d-flex align-items-center">
-              <MapPin className="text-warning" size={16} />
-              <p className="ms-2 mb-0 fs-6 text-white fw-normal">
+              <MapPin className="text-warning" size={14} />
+              <p className="ms-2 mb-0 f_14 text-white fw-normal">
                 209, US Complex, Mathura Road, Jasola, New Delhi 110076.
               </p>
             </div>
@@ -35,12 +35,12 @@ export default function TopBar() {
                   className="text-white"
                   rel="noreferrer"
                 >
-                  <Facebook size={16} />
+                  <Facebook size={14} />
                 </a>
               </li>
               <li className="mx-2">
                 <a target="_blank" href="https://twitter.com/skysignage" className="text-white" rel="noreferrer">
-                  <Twitter size={16} />
+                  <Twitter size={14} />
                 </a>
               </li>
               <li className="mx-2">
@@ -50,7 +50,7 @@ export default function TopBar() {
                   className="text-white"
                   rel="noreferrer"
                 >
-                  <Linkedin size={16} />
+                  <Linkedin size={14} />
                 </a>
               </li>
               <li className="mx-2">
@@ -60,15 +60,15 @@ export default function TopBar() {
                   className="text-white"
                   rel="noreferrer"
                 >
-                  <Instagram size={16} />
+                  <Instagram size={14} />
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-auto">
             <div className="d-flex align-items-center">
-              <Phone className="text-warning" size={16} />
-              <a className="ms-2 mb-0 fs-6 d-inline text-white fw-normal" href="tel:9311405211">
+              <Phone className="text-warning" size={14} />
+              <a className="ms-2 mb-0 f_14 text-decoration-none d-inline text-white fw-normal" href="tel:9311405211">
                 9311405211
               </a>
             </div>

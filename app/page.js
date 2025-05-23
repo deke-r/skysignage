@@ -24,7 +24,7 @@ export default function Page() {
       <ClientsSection />
       <TestimonialsSection />
       <BlogSection />
-      <EnquiryPopup />
+
         
         
         

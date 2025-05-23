@@ -9,7 +9,7 @@ export default function BlogSection() {
       id: "post1",
       title: "What Is the Difference Between a Sign and Signage",
       excerpt: "Signs are significant in all aspects of life because they define what it means to be human. A sign...",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/img/WhatistheDifferenceBetweenASignandSignage.webp",
       url: "/blog",
     },
     {
@@ -17,7 +17,7 @@ export default function BlogSection() {
       title: "What Are Neon Sign Boards",
       excerpt:
         "One of the most stunning, distinctive, and dazzling outdoor advertising is the neon signs. While other traditional characters...",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/img/WhatAreNeonSignBoards.webp",
       url: "/blog-2",
     },
     {
@@ -25,7 +25,7 @@ export default function BlogSection() {
       title: "Glass Printing",
       excerpt:
         "Glass is widely used in corporate offices, commercial and retail space to make cubicles, cabins and partitions....",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/img/BenefitsOfLEDSignBoards.webp",
       url: "/blog-3",
     },
   ]

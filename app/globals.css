@@ -10,6 +10,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 .f_8 { font-size: clamp(6px, 0.5vw, 8px) !important; }
 .f_9 { font-size: clamp(7px, 0.6vw, 9px) !important; }
 .f_10 { font-size: clamp(8px, 0.7vw, 10px) !important; }

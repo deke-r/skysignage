@@ -45,18 +45,18 @@ export default function ServicesSection() {
         <hr className="w-25 mx-auto my-4 border-primary border-2" />
 
         {services.map((service, index) => (
-          <div key={service.id} className="row no-gutters position-relative mt-4 mt-lg-0">
+          <div key={service.id} className="row no-gutters  position-relative mt-4 mt-lg-0">
             <div
               className="position-absolute top-50 start-50 translate-middle d-none d-lg-block bg-white shadow-sm"
               style={{ width: "25px", height: "25px", transform: "rotate(45deg)", zIndex: 1 }}
             ></div>
 
             <div
-              className={`col-lg-6 py-3 py-lg-0 mb-0 ${service.isReversed ? "order-lg-2" : ""}`}
+              className={`col-lg-6 py-3 py-lg-0  mb-0 ${service.isReversed ? "order-lg-2" : ""}`}
               style={{ minHeight: "400px" }}
             >
               <div
-                className="h-100 rounded"
+                className="h-100"
                 style={{
                   backgroundImage: `url(${service.image})`,
                   backgroundSize: "cover",
@@ -67,7 +67,7 @@ export default function ServicesSection() {
             </div>
 
             <div
-              className="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white rounded shadow-sm"
+              className="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white  shadow-sm"
               data-aos={service.isReversed ? "fade-right" : "fade-left"}
             >
               <div className="d-flex align-items-center h-100">
@@ -92,7 +92,7 @@ export default function ServicesSection() {
           </div>
         ))}
 
-        <div className="row mt-7">
+        <div className="row mt-5">
           <div className="col-sm-6 col-lg-4 px-4 px-sm-3 text-lg-x" data-aos="fade-up" data-aos-delay="100">
             <h5 className="fw-bold">
               Computerized Digital Printing Plotters <br /> (Including Solvent Machines as well)

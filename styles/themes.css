@@ -19,6 +19,18 @@
     color: var(--text-color) !important;
 }
 
+.bg-primary{
+  background-color: #4A69BD !important;
+}
+
+.text-primary{
+  color: #4A69BD !important;
+}
+
+.btn-primary{
+  background-color: #4A69BD !important;
+  border-color: #4A69BD !important;
+}
 
 body {
   background-color: var(--bg-color) !important;
@@ -36,4 +48,16 @@ a, .btn-link {
 }
 .theme-toggle-btn:hover .icon-rotate {
   transform: rotate(180deg);
+}
+
+
+.btn-outline-primary{
+  background-color: transparent;
+  border-color: #4A69BD !important;
+  color: #4A69BD;
+}
+
+.btn-outline-primary:hover{
+  background-color: #4A69BD !important;
+  color: white !important;
 }

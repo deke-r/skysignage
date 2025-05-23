@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
   }, [])
 
   return (
-    <section className="bg-primary py-6">
+    <section className="bg-primary py-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8">
