@@ -5,11 +5,11 @@
   --primary-color: #4A69BD;
 }
 
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --bg-color: #121212;
   --text-color: #f8f9fa;
   --primary-color: #4A69BD;
-}
+} */
 
 .bg-color{
     background-color: var(--bg-color);

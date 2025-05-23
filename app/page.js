@@ -1,14 +1,30 @@
-import ThemeToggle from "@/libs/ThemeToggle";
+import TopBar from "@/components/TopBar"
+import Navbar from "@/components/Navbar"
+import HeroSlider from "@/components/HeroSlider"
+import WelcomeSection from "@/components/WelcomeSection"
+import ServicesSection from "@/components/ServicesSection"
+import WhyChooseUs from "@/components/WhyChooseUs"
+import CtaSection from "@/components/CtaSection"
+import ClientsSection from "@/components/ClientsSection"
+import TestimonialsSection from "@/components/TestimonialsSection"
+import BlogSection from "@/components/BlogSection"
+import Footer from "@/components/Footer"
+import EnquiryPopup from "@/components/EnquiryPopup"
 
 export default function Page() {
     return (
-        <><h2>Deker</h2>
+        <>
 
-         <div className="container py-5">
-      <h1 className="mb-4">Next.js Theme Toggle (App Router)</h1>
-      <p>This setup uses CSS variables, Bootstrap, and persistent theme toggle.</p>
-      <ThemeToggle />
-    </div>
+
+      <HeroSlider />
+      <WelcomeSection />
+      <ServicesSection />
+      <WhyChooseUs />
+      <CtaSection />
+      <ClientsSection />
+      <TestimonialsSection />
+      <BlogSection />
+      <EnquiryPopup />
         
         
         

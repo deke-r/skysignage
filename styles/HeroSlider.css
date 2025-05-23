@@ -1,0 +1,79 @@
+.hero-slider-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.carousel-item.active {
+  display: block;
+  z-index: 1;
+}
+
+.slide-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slide-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(65px);
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.animate-fade-slide {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.button-group {
+  margin-top: 1.5rem;
+  opacity: 0;
+  transform: translateY(65px);
+  transition: opacity 0.6s ease-in-out 0.3s, transform 0.6s ease-in-out 0.3s;
+}
+
+.animate-fade-slide-delay {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.carousel-indicators li.active {
+  opacity: 1;
+}

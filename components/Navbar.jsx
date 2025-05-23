@@ -26,9 +26,9 @@ export default function Navbar() {
       className={`znav-white znav-container sticky-top navbar-elixir ${isScrolled ? "scrolled" : ""}`}
       id="znav-container"
     >
-      <div className="container">
+      <div className="container-fluid">
         <nav className="navbar navbar-expand-lg">
-          <Link href="/" className="navbar-brand overflow-hidden pr-1 my-auto">
+          <Link href="/" className="navbar-brand overflow-hidden ms-lg-5 pr-1 my-auto">
             <img src="/img/logo-dark.png" alt="logo" width={100} className="logo_image" />
           </Link>
 
