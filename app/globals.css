@@ -57,3 +57,8 @@ a{
 .f_48 { font-size: clamp(46px, 3.3vw, 48px) !important; }
 .f_49 { font-size: clamp(47px, 3.4vw, 49px) !important; }
 .f_50 { font-size: clamp(48px, 3.5vw, 50px) !important; }
+
+
+.other-services{
+  background-image: url('/img/blurry.webp');
+}

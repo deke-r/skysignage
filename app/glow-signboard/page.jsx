@@ -1,0 +1,61 @@
+import BannerC from "@/components/Banner-c";
+import OtherServices from "@/components/OtherServices";
+import ServiceSS from "@/components/ServiceSC";
+const banner = {
+  title: "Glow Sign Board Manufacturer in Delhi",
+  backgroundImage: "/img/Sky-signage.webp",
+  breadcrumbs: [
+    { label: "Home", href: "/" },
+    { label: "Glow Sign Board Manufacturer in Delhi", active: true },
+  ],
+};
+
+
+const servicesData = {
+  title: "Our Other Services",
+  subtitle: "Explore Our Diverse Range<br> of Signboard Services",
+  services: [
+    { title: "3d Acrylic LED Letter", link: "/3d-acrlic-signboard" },
+    { title: "Neon Sign Board", link: "/neon-signboard" },
+    { title: "3d Steel LED Letter", link: "/3d-steel-led-letter" },
+    { title: "ACP Sign Board", link: "/acp-sign-board" },
+    { title: "3D Brass LED Letter", link: "/3d-brass-signboard" },
+    { title: "Indoor Reception Sign Board", link: "/indoor-reception-sign-board" },
+    { title: "Indoor Office Sign Board", link: "/indoor-office-sign-board" },
+    { title: "Safety Signage", link: "/safety-signage" },
+    { title: "Directional Sign Board", link: "/directional-sign-board" },
+  ],
+};
+
+
+const serviceData = {
+  title: "Glow Sign Board",
+  description: `Sky Signage offers  a wide range of backlit/ glow sign display light boxes giving you the best options for your illuminated display requirements. We have 8 years of great experience in glow sign board manufacturing and repairing. Your light box can be internal or external, front loading or slide in. You can order backlit light boxes in standard poster sizes A4, A3, A2, A1 and A0.
+You can have any light box supplied, fitted with an inkjet printer backlit We ensure our light boxes illuminate your graphic image with the most even light distribution possible, bringing your graphics to life and creating powerful eye catching displays. All of our light boxes are supplied with cable and plug so all you need to do is plug them in and you are away!`,
+  image: "/img/GlowSignBoard.webp",
+  content: {
+    icon: "bi bi-chat-dots",
+    heading: "We Are Professional",
+    details: [
+      `Bring focus to your most important features with internal lighting. Backlighting adds emphasis and highlights your message like no other graphic application.`,
+      `Back-lit displays are commonly found in trade show exhibits, retail environments, sports arenas, airports, restaurants, and many other types of display environments. The use of a light box or back-lit display allows photos and written copy to be joined together to tell a story in a way that would never be possible with your average presentation.
+
+`,
+      
+    ],
+    buttonText: "Enquiry Now",
+  },
+}
+
+export default function GlowSignboard() {
+    return (
+        <>
+           <BannerC {...banner} />
+
+         <ServiceSS {...serviceData} />
+
+         <OtherServices {...servicesData} />
+        
+        </>
+    );
+}

@@ -3,10 +3,10 @@ import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail, Globe } fr
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white pt-5">
+    <footer className="bg-dark text-white pt-0">
       <div className="container">
         {/* Call to action section */}
-        <div className="info-section bg-primary rounded-3 mb-5">
+        <div className="info-section bg-primary rounded-bottom-3 mb-5">
           <div className="container">
             <div className="row align-items-center py-4 px-3">
               <div className="col-lg-4">
