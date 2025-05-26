@@ -48,7 +48,7 @@ export default function BlogPost({ post, relatedBlogs }) {
                 ))}
 
                 {/* Roles Section */}
-                <div className="my-5 p-4 bg-light rounded-3 border-start border-primary border-4">
+                <div className="my-5 p-4 bg-light border-start  border-4">
                   <h4 className="fw-bold text-primary mb-4">{post.content.roles.title}</h4>
                   <ul className="list-unstyled">
                     {post.content.roles.items.map((item, index) => (

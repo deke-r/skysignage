@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
-import "../styles/HeroSlider.css" // adjust path based on your structure
+import "../styles/HeroSlider.css"
 
 export default function HeroSlider() {
   const [slides, setSlides] = useState([
@@ -12,34 +12,32 @@ export default function HeroSlider() {
       backgroundImage: "/img/header-6.webp",
       title: "We are one of the Leading Printing & Signage Company in Delhi NCR",
       isActive: true,
+      alignment: "left",
     },
     {
       id: 2,
       backgroundImage: "/img/header-5.webp",
       title: "Be <br> Visible!",
       isActive: false,
+      alignment: "center",
     },
     {
       id: 3,
       backgroundImage: "/img/header-1.webp",
       title: "A Trusted Partner in Remarkable Branding Experiences, Today - and Tomorrow.",
       isActive: false,
+      alignment: "right",
     },
   ])
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setSlides((prevSlides) => {
-        const activeIndex = prevSlides.findIndex((slide) => slide.isActive)
-        const nextIndex = (activeIndex + 1) % prevSlides.length
-
-        return prevSlides.map((slide, index) => ({
-          ...slide,
-          isActive: index === nextIndex,
-        }))
+      setSlides((prev) => {
+        const activeIndex = prev.findIndex((s) => s.isActive)
+        const nextIndex = (activeIndex + 1) % prev.length
+        return prev.map((s, i) => ({ ...s, isActive: i === nextIndex }))
       })
     }, 5000)
-
     return () => clearInterval(interval)
   }, [])
 
@@ -48,22 +46,22 @@ export default function HeroSlider() {
       {slides.map((slide) => (
         <div
           key={slide.id}
-          className={`carousel-item ${slide.isActive ? "active" : ""}`}
+          className={`carousel-item fade-transition ${slide.isActive ? "active" : ""}`}
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(${slide.backgroundImage})`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${slide.backgroundImage})`,
           }}
         >
-          <section className="slide-content">
-            <div className="content-wrapper text-center text-white">
+          <section className={`slide-content ${slide.alignment}`}>
+            <div className="content-wrapper text-white">
               <h1
                 className={`slide-title ${slide.isActive ? "animate-fade-slide" : ""}`}
                 dangerouslySetInnerHTML={{ __html: slide.title }}
               />
               <div className={`button-group ${slide.isActive ? "animate-fade-slide-delay" : ""}`}>
-                <Link href="#" className="btn btn-primary me-3 mt-3">
+                <Link href="#" className="btn btn-outline-primary fw-semibold text-center rounded-pill me-3 ps-4 mt-3">
                   Read more <ChevronRight className="ms-2" size={16} />
                 </Link>
-                <Link href="/contact" className="btn btn-warning mt-3">
+                <Link href="/contact" className="btn btn-warning rounded-pill ps-4 fw-semibold mt-3">
                   Contact us <ChevronRight className="ms-2" size={16} />
                 </Link>
               </div>
@@ -79,13 +77,10 @@ export default function HeroSlider() {
             className={slide.isActive ? "active" : ""}
             onClick={() =>
               setSlides((prevSlides) =>
-                prevSlides.map((s, i) => ({
-                  ...s,
-                  isActive: i === index,
-                })),
+                prevSlides.map((s, i) => ({ ...s, isActive: i === index }))
               )
             }
-          ></li>
+          />
         ))}
       </ol>
     </div>

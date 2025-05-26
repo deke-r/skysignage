@@ -62,7 +62,7 @@ export default function Navbar() {
               <li className="nav-item dropdown position-static">
                 <Link
                   href="#"
-                  className="nav-link shadow_nav dropdown-toggle"
+                  className="nav-link services-dp shadow_nav"
                   id="servicesDropdown"
                   role="button"
                   data-bs-toggle="dropdown"

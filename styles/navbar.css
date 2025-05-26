@@ -234,3 +234,19 @@
     display: none;
   }
 }
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu {
+  transition: all 0.3s ease;
+  margin-top: 0;
+  display: none; 
+}
+
+
+.dropdown-menu a:hover {
+  background-color: #f8f9fa;
+}
