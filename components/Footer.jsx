@@ -155,20 +155,20 @@ export default function Footer() {
                         <li className="me-3">
                           <a
                             href="https://www.facebook.com/profile.php?id=100083251807523"
-                            className="btn btn-sm btn-primary rounded-circle"
+                            className="btn btn-sm  rounded-circle"
                           >
                             <Facebook size={16} />
                           </a>
                         </li>
                         <li className="me-3">
-                          <a href="https://twitter.com/skysignage" className="btn btn-sm btn-info rounded-circle">
+                          <a href="https://twitter.com/skysignage" className="btn btn-sm text-info  rounded-circle">
                             <Twitter size={16} />
                           </a>
                         </li>
                         <li className="me-3">
                           <a
                             href="https://www.linkedin.com/in/sky-signage-aa0462245/"
-                            className="btn btn-sm btn-primary rounded-circle"
+                            className="btn btn-sm  rounded-circle"
                           >
                             <Linkedin size={16} />
                           </a>
@@ -176,7 +176,7 @@ export default function Footer() {
                         <li>
                           <a
                             href="https://www.instagram.com/sky__signage/"
-                            className="btn btn-sm btn-danger rounded-circle"
+                            className="btn btn-sm text-danger rounded-circle"
                           >
                             <Instagram size={16} />
                           </a>

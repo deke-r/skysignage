@@ -6,7 +6,7 @@
 .filter-btn {
   background: transparent;
   border: 2px solid #dee2e6;
-  color: #6c757d;
+  color: #4A69BD;
   padding: 0.75rem 1.5rem;
   margin: 0.25rem;
   border-radius: 50px;
@@ -17,19 +17,13 @@
   font-size: 0.875rem;
 }
 
-.filter-btn:hover {
-  background: #007bff;
-  border-color: #007bff;
+.filter-btn:hover,
+.filter-btn.active {
+  background: #4A69BD;
+  border-color: #4A69BD;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
-}
-
-.filter-btn.active {
-  background: #007bff;
-  border-color: #007bff;
-  color: white;
-  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(74, 105, 189, 0.3);
 }
 
 /* Gallery Grid Styles */
@@ -39,6 +33,7 @@
 
 .gallery-item {
   animation: slideUp 0.6s ease-out;
+  animation-fill-mode: both;
 }
 
 .gallery-card {
@@ -78,7 +73,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 123, 255, 0.8) 0%, rgba(0, 86, 179, 0.9) 100%);
+  background: linear-gradient(135deg, rgba(74, 105, 189, 0.8) 0%, rgba(58, 85, 153, 0.9) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,12 +93,15 @@
 .overlay-content h6 {
   font-weight: 600;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 .badge {
   font-size: 0.75rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
+  background-color: #4A69BD;
+  color: white;
 }
 
 /* Animations */
@@ -162,26 +160,10 @@
   }
 }
 
-/* Loading Animation */
-.gallery-item {
-  animation-fill-mode: both;
-}
-
-.gallery-item:nth-child(1) {
-  animation-delay: 0.1s;
-}
-.gallery-item:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.gallery-item:nth-child(3) {
-  animation-delay: 0.3s;
-}
-.gallery-item:nth-child(4) {
-  animation-delay: 0.4s;
-}
-.gallery-item:nth-child(5) {
-  animation-delay: 0.5s;
-}
-.gallery-item:nth-child(6) {
-  animation-delay: 0.6s;
-}
+/* Loading Animation Delays */
+.gallery-item:nth-child(1) { animation-delay: 0.1s; }
+.gallery-item:nth-child(2) { animation-delay: 0.2s; }
+.gallery-item:nth-child(3) { animation-delay: 0.3s; }
+.gallery-item:nth-child(4) { animation-delay: 0.4s; }
+.gallery-item:nth-child(5) { animation-delay: 0.5s; }
+.gallery-item:nth-child(6) { animation-delay: 0.6s; }
