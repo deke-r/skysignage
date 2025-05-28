@@ -13,20 +13,24 @@ export default function OtherServices({ title, subtitle, services }) {
           </div>
         </div>
 
-        <div className="row">
-          {services.map((service, index) => (
-            <div className="col-md-4 mb-4" key={index}>
-              <div className="card card-3d border-0 h-100">
-                <div className="card-body">
-                  <h5 className="card-title fw-bold">{service.title}</h5>
-                  <Link href={service.link} className="card-link fw-semibold">
-                    More Details <span style={{ fontSize: "20px" }}>→</span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
+<div className="row">
+  {services.map((service, index) => (
+    <div
+      className={`col-md-${services.length === 4 ? "6" : "4"} mb-4`}
+      key={index}
+    >
+      <div className="card card-3d border-0 h-100">
+        <div className="card-body">
+          <h5 className="card-title fw-bold">{service.title}</h5>
+          <Link href={service.link} className="card-link fw-semibold">
+            More Details <span style={{ fontSize: "20px" }}>→</span>
+          </Link>
         </div>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );
