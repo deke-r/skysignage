@@ -1,3 +1,74 @@
+export const metadata = {
+  title: "In-Store Displays in Delhi - SkySignage",
+  description:
+    "SkySignage specializes in eye-catching in-store display solutions in Delhi. Enhance your retail space with customized signage that drives attention and sales. Call 9311405211.",
+  keywords: [
+    "In-Store Displays in Delhi",
+    "Retail Displays in Delhi",
+    "In-Store Branding Delhi",
+    "Store Display Signage Delhi",
+    "Custom Retail Displays",
+    "Visual Merchandising Services",
+    "Point of Sale Displays Delhi",
+    "Shop Branding in Delhi",
+    "Retail Display Design",
+    "SkySignage In-Store Display Solutions"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/in-store-displays"
+  },
+  openGraph: {
+    title: "In-Store Displays in Delhi - SkySignage",
+    description:
+      "SkySignage offers innovative and customizable in-store display signage in Delhi for retail stores. Boost customer engagement and brand visibility. Contact us at 9311405211.",
+    url: "https://skysignage.in/in-store-displays",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/in-store-displays-og.jpg", // Replace with actual image path
+        width: 1200,
+        height: 630,
+        alt: "In-Store Displays by SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "In-Store Displays in Delhi - SkySignage",
+    description:
+      "Transform your retail space with creative in-store displays from SkySignage in Delhi. Contact us now for a custom solution!",
+    images: ["https://skysignage.in/assets/images/in-store-displays-twitter.jpg"] // Replace with actual image path
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "In-Store Displays",
+    description:
+      "SkySignage provides professional in-store display design and installation services in Delhi to enhance your brand's in-store visibility.",
+    provider: {
+      "@type": "Organization",
+      name: "SkySignage",
+      url: "https://skysignage.in",
+      logo: "https://skysignage.in/assets/images/logo.png"
+    },
+    areaServed: {
+      "@type": "Place",
+      name: "Delhi"
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

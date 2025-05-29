@@ -1,3 +1,50 @@
+export const metadata = {
+  title: "Display Rack Manufacturer in Delhi - SkySignage",
+  description: "If you are looking for the best Display Rack Manufacturer in Delhi, SkySignage provides quality design and craft display racks. Request a consultation today! Call 9311405211.",
+  keywords: [
+    "Display Rack Manufacturer in Delhi",
+    "Display Rack in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/display-racks"
+  },
+  openGraph: {
+    title: "Display Rack Manufacturer in Delhi - SkySignage",
+    description: "SkySignage offers high-quality display rack manufacturing services in Delhi. Get durable and stylish racks for your business. Call 9311405211.",
+    url: "https://skysignage.in/display-racks",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/display-racks-og.jpg", // Replace with your actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Display Rack Manufacturer in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Display Rack Manufacturer in Delhi - SkySignage",
+    description: "Quality display racks manufactured by SkySignage in Delhi. Request a consultation today! Call 9311405211.",
+    images: ["https://skysignage.in/assets/images/display-racks-twitter.jpg"] // Replace with your actual image URL
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "SkySignage",
+    url: "https://skysignage.in/display-racks",
+    logo: "https://skysignage.in/assets/images/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

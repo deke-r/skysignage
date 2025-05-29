@@ -1,3 +1,69 @@
+export const metadata = {
+  title: "Wood Printing Service in Delhi - SkySignage",
+  description:
+    "SkySignage offers high-quality and personalized wood printing services in Delhi. Perfect for decor, signage, and gifting. Call now at 9311405211.",
+  keywords: [
+    "Wood Printing Service in Delhi",
+    "Wood Printing in Delhi",
+    "Custom Wood Prints Delhi",
+    "Personalized Wood Printing",
+    "Photo Printing on Wood",
+    "Engraved Wood Signs",
+    "Wood Branding Services",
+    "Wooden Plaque Printing",
+    "Wood Art Printing Delhi",
+    "Best Wood Printing Company in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/wood-printing",
+  },
+  openGraph: {
+    title: "Wood Printing Service in Delhi - SkySignage",
+    description:
+      "SkySignage offers unique, high-resolution wood printing in Delhi for home, business, and custom projects. Call 9311405211 for a quote!",
+    url: "https://skysignage.in/wood-printing",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/wood-printing-og.jpg", // Replace with actual image
+        width: 1200,
+        height: 630,
+        alt: "Wood Printing Service in Delhi",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wood Printing Service in Delhi - SkySignage",
+    description:
+      "Discover the best wood printing service in Delhi with SkySignage. Premium custom prints for décor and signage. Call now!",
+    images: ["https://skysignage.in/assets/images/wood-printing-twitter.jpg"], // Replace with actual image
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "Wood Printing Service",
+    description:
+      "SkySignage offers premium wood printing services in Delhi for businesses, interiors, and personalized gifts. Quality and creativity guaranteed.",
+    brand: {
+      "@type": "Organization",
+      name: "SkySignage",
+    },
+    url: "https://skysignage.in/wood-printing",
+    logo: "https://skysignage.in/assets/images/logo.png", // Replace if needed
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English",
+    },
+  },
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

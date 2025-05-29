@@ -54,7 +54,7 @@ export default function ContactSection() {
                   href="https://www.instagram.com/infoskysignage/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-outline-primary btn-lg rounded-circle p-3 text-decoration-none"
+                  className="btn btn-outline-primary btn-lg rounded-circle p-3 d-flex justify-content-center align-items-center text-decoration-none"
                   style={{ width: "60px", height: "60px" }}
                 >
                   <Instagram size={24} />
@@ -64,7 +64,7 @@ export default function ContactSection() {
                   href="https://twitter.com/skysignage"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-outline-primary btn-lg rounded-circle p-3 text-decoration-none"
+                  className="btn btn-outline-primary btn-lg rounded-circle d-flex justify-content-center align-items-center p-3 text-decoration-none"
                   style={{ width: "60px", height: "60px" }}
                 >
                   <Twitter size={24} />
@@ -74,7 +74,7 @@ export default function ContactSection() {
                   href="https://www.facebook.com/profile.php?id=100083251807523"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-outline-primary btn-lg rounded-circle p-3 text-decoration-none"
+                  className="btn btn-outline-primary btn-lg rounded-circle d-flex justify-content-center align-items-center p-3 text-decoration-none"
                   style={{ width: "60px", height: "60px" }}
                 >
                   <Facebook size={24} />

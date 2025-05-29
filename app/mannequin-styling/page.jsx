@@ -1,3 +1,52 @@
+export const metadata = {
+  title: "Mannequin Styling Manufacturer in Delhi - SkySignage",
+  description: "SkySignage is the best Mannequin Styling Manufacturer in Delhi. We create realistic mannequins to showcase your fashion. Get Your Perfect Mannequin Now! Call 9311405211.",
+  keywords: [
+    "Mannequin Styling Manufacturer in Delhi",
+    "Mannequin Styling Suppliers in Delhi",
+    "Mannequin Styling service in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/mannequin-styling"
+  },
+  openGraph: {
+    title: "Mannequin Styling Manufacturer in Delhi - SkySignage",
+    description: "Get realistic mannequins for your fashion display. SkySignage is the top Mannequin Styling Manufacturer in Delhi. Contact us now at 9311405211.",
+    url: "https://skysignage.in/mannequin-styling",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/mannequin-styling-og.jpg", // Replace with your actual image
+        width: 1200,
+        height: 630,
+        alt: "Mannequin Styling Manufacturer in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mannequin Styling Manufacturer in Delhi - SkySignage",
+    description: "SkySignage creates realistic mannequins to showcase your fashion. Call 9311405211 to order your perfect mannequin.",
+    images: ["https://skysignage.in/assets/images/mannequin-styling-twitter.jpg"] // Replace with your actual image
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "SkySignage",
+    url: "https://skysignage.in/mannequin-styling",
+    logo: "https://skysignage.in/assets/images/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

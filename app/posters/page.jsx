@@ -1,3 +1,72 @@
+export const metadata = {
+  title: "Poster Design Service in Delhi - SkySignage",
+  description:
+    "Looking for professional poster design services in Delhi? SkySignage creates eye-catching posters that leave a lasting impression. Call us at 9311405211.",
+  keywords: [
+    "Poster Design Service in Delhi",
+    "Poster Designer in Delhi",
+    "Custom Poster Design Delhi",
+    "Professional Poster Design Delhi",
+    "Creative Poster Services Delhi",
+    "Marketing Posters Delhi",
+    "Poster Printing and Design Delhi",
+    "Affordable Poster Design Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/posters"
+  },
+  openGraph: {
+    title: "Poster Design Service in Delhi - SkySignage",
+    description:
+      "Get professional poster design services in Delhi from SkySignage. We create vibrant, impactful posters to promote your brand effectively. Call now!",
+    url: "https://skysignage.in/posters",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/poster-design-og.jpg", // Update with your actual OG image path
+        width: 1200,
+        height: 630,
+        alt: "Poster Design Service in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Poster Design Service in Delhi - SkySignage",
+    description:
+      "Professional poster design services in Delhi by SkySignage. Make your brand stand out with creative poster designs. Contact us today!",
+    images: ["https://skysignage.in/assets/images/poster-design-twitter.jpg"] // Update with actual image path
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Poster Design Service",
+    description:
+      "SkySignage offers expert poster design services in Delhi that help businesses create impactful marketing materials.",
+    provider: {
+      "@type": "Organization",
+      name: "SkySignage",
+      url: "https://skysignage.in",
+      logo: "https://skysignage.in/assets/images/logo.png"
+    },
+    areaServed: {
+      "@type": "Place",
+      name: "Delhi"
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

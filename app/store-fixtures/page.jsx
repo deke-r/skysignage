@@ -1,3 +1,52 @@
+export const metadata = {
+  title: "Store Fixtures Manufacturers in Delhi - SkySignage",
+  description: "SkySignage is a leading store fixtures manufacturer in Delhi. We create spaces that attract customers with designs built to your exact specifications. Call 9311405211.",
+  keywords: [
+    "Store Fixtures Manufacturers in Delhi",
+    "Store Fixtures Suppliers in Delhi",
+    "Store Fixtures Service in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/store-fixtures"
+  },
+  openGraph: {
+    title: "Store Fixtures Manufacturers in Delhi - SkySignage",
+    description: "Top store fixtures manufacturer in Delhi offering custom designs that attract customers. Contact SkySignage today at 9311405211.",
+    url: "https://skysignage.in/store-fixtures",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/store-fixtures-og.jpg", // Replace with actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Store Fixtures Manufacturers in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Store Fixtures Manufacturers in Delhi - SkySignage",
+    description: "Leading store fixtures manufacturer in Delhi. Custom store fixture solutions designed to boost your business. Call 9311405211.",
+    images: ["https://skysignage.in/assets/images/store-fixtures-twitter.jpg"] // Replace with actual image URL
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "SkySignage",
+    url: "https://skysignage.in/store-fixtures",
+    logo: "https://skysignage.in/assets/images/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

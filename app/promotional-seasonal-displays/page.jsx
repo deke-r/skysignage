@@ -1,3 +1,61 @@
+export const metadata = {
+  title: "Promotional Seasonal Display Service in Delhi - SkySignage",
+  description: "SkySignage is the best window display service in Delhi. Check out the link to know more about our services. Call us at 9311405211 and get a quality window display.",
+  keywords: [
+    "Promotional Seasonal Display Service in Delhi",
+    "Promotional Seasonal Display in Delhi",
+    "Seasonal Display Service in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/promotional-seasonal-displays"
+  },
+  openGraph: {
+    title: "Promotional Seasonal Display Service in Delhi - SkySignage",
+    description: "SkySignage is the best window display service in Delhi. Call us at 9311405211 and get a quality window display.",
+    url: "https://skysignage.in/promotional-seasonal-displays",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/promotional-seasonal-display-og.jpg", // Replace with your image path
+        width: 1200,
+        height: 630,
+        alt: "Promotional Seasonal Display Service in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Promotional Seasonal Display Service in Delhi - SkySignage",
+    description: "SkySignage offers the best window display service in Delhi. Call us at 9311405211 for quality promotional seasonal displays.",
+    images: ["https://skysignage.in/assets/images/promotional-seasonal-display-twitter.jpg"] // Replace with your image path
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Promotional Seasonal Display Service",
+    description: "Top-quality promotional seasonal display services in Delhi by SkySignage. Contact us for customized seasonal displays.",
+    provider: {
+      "@type": "Organization",
+      name: "SkySignage",
+      url: "https://skysignage.in",
+      logo: "https://skysignage.in/assets/images/logo.png"
+    },
+    areaServed: {
+      "@type": "Place",
+      name: "Delhi"
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

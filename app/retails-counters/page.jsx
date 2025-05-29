@@ -1,3 +1,53 @@
+export const metadata = {
+  title: "Retail Counters Manufacturer in Delhi - SkySignage",
+  description: "SkySignage is a leading retail counters manufacturer in Delhi. We create attractive retail displays with innovative designs. Call 9311405211 for a consultation.",
+  keywords: [
+    "Retail Counters manufacturer in Delhi",
+    "Retail Counters supplier in Delhi",
+    "Retail Counters Service in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/indoor-office-sign-board"
+  },
+  openGraph: {
+    title: "Retail Counters Manufacturer in Delhi - SkySignage",
+    description: "Looking for retail counters manufacturer in Delhi? SkySignage offers innovative and attractive retail counters. Contact us at 9311405211.",
+    url: "https://skysignage.in/indoor-office-sign-board",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/retail-counters-og.jpg", // Replace with your actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Retail Counters Manufacturer in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Retail Counters Manufacturer in Delhi - SkySignage",
+    description: "Top retail counters manufacturer in Delhi providing attractive and innovative retail displays. Call now at 9311405211.",
+    images: ["https://skysignage.in/assets/images/retail-counters-twitter.jpg"] // Replace with your actual image URL
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "SkySignage",
+    url: "https://skysignage.in/indoor-office-sign-board",
+    logo: "https://skysignage.in/assets/images/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

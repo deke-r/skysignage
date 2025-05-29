@@ -1,3 +1,55 @@
+export const metadata = {
+  title: "Point of Sale Displays Services in Delhi - SkySignage",
+  description: "Looking for the point of sale display services in Delhi? SkySignage designs eye-catching displays that get your brand noticed. Get a free quote today! Call 9311405211.",
+  keywords: [
+    "Point of Sale Displays Services in Delhi",
+    "Point of Sale Displays in Delhi",
+    "POS Displays Services in Delhi",
+    "POS Displays in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/point-of-sale-displays"
+  },
+  openGraph: {
+    title: "Point of Sale Displays Services in Delhi - SkySignage",
+    description: "SkySignage offers eye-catching point of sale display services in Delhi to help your brand stand out. Contact us for a free quote today! Call 9311405211.",
+    url: "https://skysignage.in/point-of-sale-displays",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/point-of-sale-displays-og.jpg", // Replace with your actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Point of Sale Displays Services in Delhi - SkySignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Point of Sale Displays Services in Delhi - SkySignage",
+    description: "Get eye-catching POS displays designed by SkySignage in Delhi. Boost your sales and get noticed. Call 9311405211.",
+    images: ["https://skysignage.in/assets/images/point-of-sale-displays-twitter.jpg"] // Replace with your actual image URL
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "SkySignage",
+    url: "https://skysignage.in/point-of-sale-displays",
+    logo: "https://skysignage.in/assets/images/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9311405211",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: "English"
+    }
+  }
+};
+
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

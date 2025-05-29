@@ -1,3 +1,60 @@
+export const metadata = {
+  title: "Canvas Printing Services in Delhi NCR - SkySignage",
+  description: "SkySignage offers premium canvas printing services in Delhi NCR with vibrant, high-resolution prints tailored to your needs. Get in touch now at 9311405211.",
+  keywords: [
+    "Canvas Printing Services in Delhi",
+    "Canvas Printing in Delhi",
+    "Custom Canvas Printing Delhi NCR",
+    "Photo Canvas Printing Delhi",
+    "Best Canvas Printing Company Delhi",
+    "Canvas Wall Art Printing Delhi",
+    "Canvas Poster Printing Delhi",
+    "Affordable Canvas Printing in Delhi",
+    "High Quality Canvas Prints Delhi",
+    "Canvas Print Shop in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/canvas-printing"
+  },
+  openGraph: {
+    title: "Canvas Printing Services in Delhi NCR - SkySignage",
+    description: "Looking for high-quality canvas prints in Delhi NCR? SkySignage delivers professional, vibrant canvas prints for your home or office. Call now!",
+    url: "https://skysignage.in/canvas-printing",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/canvas-printing-og.jpg", // Replace with your image path
+        width: 1200,
+        height: 630,
+        alt: "Canvas Printing Services in Delhi NCR"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Canvas Printing Services in Delhi NCR - SkySignage",
+    description: "Premium and affordable canvas printing services by SkySignage. Perfect for homes, offices, and galleries. Contact us today!",
+    images: ["https://skysignage.in/assets/images/canvas-printing-twitter.jpg"] // Replace with your image path
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SkySignage",
+    "url": "https://skysignage.in/canvas-printing",
+    "logo": "https://skysignage.in/assets/images/logo.png", // Replace if needed
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9311405211",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    }
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

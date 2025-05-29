@@ -1,3 +1,59 @@
+export const metadata = {
+  title: "Glass Printing Service in Delhi NCR - SkySignage",
+  description: "Looking for the best glass printing service in Delhi NCR? SkySignage delivers stunning, high-quality glass prints tailored to your needs. Contact us for a consultation at 9311405211.",
+  keywords: [
+    "Glass Printing Services in Delhi",
+    "Glass Printing in Delhi",
+    "Custom Glass Printing Delhi NCR",
+    "Decorative Glass Printing Delhi",
+    "Glass Surface Printing Delhi",
+    "Printed Glass Panels Delhi",
+    "Glass Wall Art Printing Delhi",
+    "Best Glass Printing Company in Delhi",
+    "Affordable Glass Printing Delhi",
+    "Glass Printing Near Me"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/glass-printing"
+  },
+  openGraph: {
+    title: "Glass Printing Service in Delhi NCR - SkySignage",
+    description: "SkySignage provides premium glass printing services in Delhi NCR. High-end designs, precise finish, and expert craftsmanship. Contact us today!",
+    url: "https://skysignage.in/glass-printing",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/glass-printing-og.jpg", // Replace with actual image path
+        width: 1200,
+        height: 630,
+        alt: "Glass Printing Service in Delhi NCR"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Glass Printing Service in Delhi NCR - SkySignage",
+    description: "Get stunning glass prints from SkySignage in Delhi NCR. Trusted professionals in custom glass printing. Call now!",
+    images: ["https://skysignage.in/assets/images/glass-printing-twitter.jpg"] // Replace with actual image path
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SkySignage",
+    "url": "https://skysignage.in/glass-printing",
+    "logo": "https://skysignage.in/assets/images/logo.png", // Replace if needed
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9311405211",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    }
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

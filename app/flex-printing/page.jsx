@@ -1,3 +1,62 @@
+export const metadata = {
+  title: "Flex Printing Services in Delhi NCR - SkySignage",
+  description: "Are you looking for affordable Flex Printing Services in Delhi NCR? SkySignage provides high-quality and stunning visuals. Request a free quote now at 9311405211.",
+  keywords: [
+    "Flex Printing Services in Delhi",
+    "Flex Printing in Delhi",
+    "Flex Banner Printing Delhi",
+    "Custom Flex Printing Delhi NCR",
+    "Outdoor Flex Printing Services",
+    "Indoor Flex Printing in Delhi",
+    "Vinyl Flex Printing Delhi",
+    "Backlit Flex Printing Delhi",
+    "Digital Flex Printing Delhi NCR",
+    "Flex Printing Near Me",
+    "Large Format Flex Printing Delhi",
+    "Best Flex Printing Company in Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/flex-printing"
+  },
+  openGraph: {
+    title: "Flex Printing Services in Delhi NCR - SkySignage",
+    description: "SkySignage offers premium Flex Printing Services in Delhi NCR. Affordable, vibrant, and professional visual printing. Contact us today!",
+    url: "https://skysignage.in/flex-printing",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/flex-printing-og.jpg", // Replace with actual image
+        width: 1200,
+        height: 630,
+        alt: "Flex Printing Services in Delhi NCR"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Flex Printing Services in Delhi NCR - SkySignage",
+    description: "Affordable and high-quality Flex Printing Services in Delhi NCR by SkySignage. Request a free quote now!",
+    images: ["https://skysignage.in/assets/images/flex-printing-twitter.jpg"] // Replace with actual image
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SkySignage",
+    "url": "https://skysignage.in/flex-printing",
+    "logo": "https://skysignage.in/assets/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9311405211",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    }
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

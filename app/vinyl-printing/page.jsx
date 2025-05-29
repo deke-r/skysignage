@@ -1,3 +1,59 @@
+export const metadata = {
+  title: "Vinyl Printing Service in Delhi NCR - SkySignage",
+  description: "Get professional vinyl printing service in Delhi NCR. SkySignage offers customized vinyl solutions with exceptional quality and precision. Call now at 9311405211.",
+  keywords: [
+    "Vinyl Printing Services in Delhi",
+    "Vinyl Printing in Delhi",
+    "Custom Vinyl Printing Delhi NCR",
+    "Vinyl Banner Printing Delhi",
+    "Vinyl Poster Printing Delhi",
+    "Vinyl Label Printing Delhi",
+    "Vinyl Wall Graphics Delhi",
+    "Best Vinyl Printing Company in Delhi",
+    "Affordable Vinyl Printing in Delhi NCR",
+    "Vinyl Printing Near Me"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/vinyl-printing"
+  },
+  openGraph: {
+    title: "Vinyl Printing Service in Delhi NCR - SkySignage",
+    description: "SkySignage offers top-notch vinyl printing services in Delhi NCR. High-quality custom solutions. Request a quote today!",
+    url: "https://skysignage.in/vinyl-printing",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/vinyl-printing-og.jpg", // Replace with actual image path
+        width: 1200,
+        height: 630,
+        alt: "Vinyl Printing Service in Delhi NCR"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vinyl Printing Service in Delhi NCR - SkySignage",
+    description: "Customized vinyl printing with quality and precision. SkySignage is your trusted partner in Delhi NCR. Get a free quote today!",
+    images: ["https://skysignage.in/assets/images/vinyl-printing-twitter.jpg"] // Replace with actual image path
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SkySignage",
+    "url": "https://skysignage.in/vinyl-printing",
+    "logo": "https://skysignage.in/assets/images/logo.png", // Replace if needed
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9311405211",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    }
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";
