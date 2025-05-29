@@ -1,3 +1,46 @@
+export const metadata = {
+  title: "Indoor Office Sign Board Manufacturer in Delhi",
+  description: "Looking for an Indoor Office Sign Board Manufacturer in Delhi? SkySignage makes your office look amazing with our custom signage. Book a consultation now, call 9311405211.",
+  keywords: [
+    "Indoor Office Sign Board Manufacturer in Delhi",
+    "Indoor Office Sign Board in Delhi",
+    "Office Sign Board Manufacturer in Delhi",
+    "Office Sign Board in Delhi",
+    "Custom office signage Delhi",
+    "Office wayfinding signage Delhi",
+    "Indoor office signs Delhi",
+    "Corporate office sign boards Delhi",
+    "Office reception signage Delhi",
+    "Office branding signage Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/indoor-office-sign-board"
+  },
+  openGraph: {
+    title: "Indoor Office Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Enhance your office ambiance with custom indoor office sign boards from Skysignage, the top manufacturer in Delhi. Book your consultation today.",
+    url: "https://skysignage.in/indoor-office-sign-board",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/indoor-office-signboard-og.jpg", // replace with actual OG image URL
+        width: 1200,
+        height: 630,
+        alt: "Indoor Office Sign Board Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Indoor Office Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Custom indoor office sign boards in Delhi by Skysignage. Make your office stand out with quality signage. Contact us now.",
+    images: ["https://skysignage.in/assets/images/indoor-office-signboard-twitter.jpg"] // replace with actual Twitter image URL
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

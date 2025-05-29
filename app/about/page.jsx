@@ -1,3 +1,51 @@
+// For the About Page
+export const metadata = {
+  title: "About Us | Sky Signage - Brand Implementation Experts",
+  description:
+    "Sky Signage is one of the largest brand implementation partners in the industry. We do this through our national signage, maintenance, and construction offerings.",
+  keywords: [
+    "signage",
+    "sky",
+    "construction",
+    "partners",
+    "offerings",
+    "national",
+    "maintenance",
+    "largest",
+    "industry",
+    "implementation",
+    "brand"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/about"
+  },
+  openGraph: {
+    title: "About Us | Sky Signage - Brand Implementation Experts",
+    description:
+      "Learn more about Sky Signage, a leading brand implementation company offering signage, maintenance, and construction services across India.",
+    url: "https://skysignage.in/about",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/og-banner.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sky Signage About"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Sky Signage - Brand Implementation Experts",
+    description:
+      "Sky Signage provides comprehensive branding, signage, and maintenance services nationwide. Discover our story.",
+    images: ["https://skysignage.in/assets/images/twitter-banner.jpg"]
+  }
+};
+
+
+
+
 
 import CompanyOverview from "../../components/Company-overview"
 import BrightnessSection from "../../components/Brightness-section"

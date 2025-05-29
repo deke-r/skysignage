@@ -1,3 +1,57 @@
+export const metadata = {
+  title: "3D Acrylic LED Letter Manufacturers & Suppliers in Delhi NCR | Skysignage",
+  description: "Get your brand noticed. Skysignage is the leading 3D Acrylic LED Letter manufacturer and supplier in Delhi NCR. Get visually stunning signage. Call now.",
+  keywords: [
+    "3D acrylic LED letters Delhi",
+    "LED letter manufacturers Delhi NCR",
+    "3D signboard suppliers Delhi",
+    "acrylic letter signage Delhi",
+    "custom LED signs Delhi NCR",
+    "LED letter signage manufacturer",
+    "acrylic LED letter fabrication",
+    "outdoor LED letters Delhi",
+    "indoor acrylic LED signage",
+    "illuminated signage Delhi NCR",
+    "brand signage solutions Delhi",
+    "signboard manufacturers Delhi",
+    "signage fabrication Delhi NCR",
+    "LED channel letters Delhi",
+    "custom 3D signage Delhi NCR",
+    "business signage Delhi",
+    "advertising signage Delhi NCR",
+    "Skysignage acrylic LED letters",
+    "signboard installation Delhi NCR",
+    "LED lighted signboards Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/3d-acrlic-signboard"
+  },
+  openGraph: {
+    title: "3D Acrylic LED Letter Manufacturers & Suppliers in Delhi NCR | Skysignage",
+    description: "Get visually stunning 3D Acrylic LED letters from Skysignage, the leading manufacturer and supplier in Delhi NCR. Contact us today!",
+    url: "https://skysignage.in/3d-acrlic-signboard",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/3d-acrylic-led-signboard.jpg", // replace with actual image URL
+        width: 1200,
+        height: 630,
+        alt: "3D Acrylic LED Letter Signage by Skysignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Acrylic LED Letter Manufacturers & Suppliers | Skysignage",
+    description: "Leading 3D Acrylic LED Letter manufacturers and suppliers in Delhi NCR. Get high-quality illuminated signage for your brand.",
+    images: ["https://skysignage.in/assets/images/3d-acrylic-led-signboard-twitter.jpg"] // replace with actual image URL
+  }
+};
+
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

@@ -1,3 +1,50 @@
+export const metadata = {
+  title: "Blog | Skysignage – Signage Tips, Trends & Case Studies",
+  description: "Read expert insights, signage tips, trends, and Skysignage case studies on branding, design, fabrication, and innovative signage solutions.",
+  keywords: [
+    "signage blog",
+    "Skysignage articles",
+    "branding tips",
+    "signage design trends",
+    "LED signage insights",
+    "case studies signage",
+    "Delhi signage industry",
+    "outdoor signage tips",
+    "indoor signage strategies",
+    "custom signage ideas",
+    "retail branding signage",
+    "corporate signage content",
+    "signboard fabrication blog",
+    "visual branding blog",
+    "wayfinding signage trends"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/blog"
+  },
+  openGraph: {
+    title: "Blog | Skysignage – Signage Tips, Trends & Case Studies",
+    description: "Discover expert blogs and real-life signage project stories from Delhi NCR's leading signage company.",
+    url: "https://skysignage.in/blog",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/blog-og.jpg", // Update with actual OG image
+        width: 1200,
+        height: 630,
+        alt: "Skysignage Blog"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog | Skysignage – Signage Tips & Case Studies",
+    description: "Explore the latest signage trends, branding insights, and custom fabrication stories from Skysignage.",
+    images: ["https://skysignage.in/assets/images/blog-twitter.jpg"] // Update with actual Twitter image
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import BlogPost from "@/components/Blog/Blog-post";
 

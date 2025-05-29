@@ -1,3 +1,52 @@
+export const metadata = {
+  title: "ACP Sign Board Manufacturer in Delhi",
+  description: "ACP Sign Board Manufacturer in Delhi. Skysignage provides durability, versatility, and weather-resistant signage. Upgrade Your Signage Today, Call Now! 9311405211",
+  keywords: [
+    "ACP Sign Board Manufacturer in Delhi",
+    "ACP Sign Board in Delhi",
+    "ACP Signage in Delhi",
+    "ACP Sign Board Supplier Delhi",
+    "ACP Sign Board Fabrication Delhi",
+    "Aluminum Composite Panel Sign Board Delhi",
+    "Durable ACP Sign Boards Delhi",
+    "Weather Resistant Sign Boards Delhi",
+    "Outdoor ACP Signage Delhi",
+    "Indoor ACP Signage Delhi",
+    "Custom ACP Sign Board Delhi",
+    "Brand Signage ACP Delhi",
+    "ACP Sheet Sign Board Delhi",
+    "Signage Manufacturer Delhi",
+    "Skysignage ACP Boards Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/acp-sign-board"
+  },
+  openGraph: {
+    title: "ACP Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Top ACP Sign Board Manufacturer in Delhi offering durable and versatile signage solutions. Call Skysignage now for quality ACP sign boards.",
+    url: "https://skysignage.in/acp-sign-board",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/acp-sign-board-og.jpg", // update with your actual OG image URL
+        width: 1200,
+        height: 630,
+        alt: "ACP Sign Board Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ACP Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Upgrade your signage with durable ACP Sign Boards from Skysignage, Delhi's leading manufacturer. Contact us today!",
+    images: ["https://skysignage.in/assets/images/acp-sign-board-twitter.jpg"] // update with your actual Twitter image URL
+  }
+};
+
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

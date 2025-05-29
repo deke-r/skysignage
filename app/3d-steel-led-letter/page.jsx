@@ -1,3 +1,52 @@
+export const metadata = {
+  title: "3D Steel LED Letter Manufacturer in Delhi",
+  description: "Boost your business with 3D Steel LED Letters in Delhi. Shine bright, get noticed, and make an impact! Click to enhance your brand! Get a Quote. Call on 9311405211",
+  keywords: [
+    "3D Steel LED Letter Manufacturer in Delhi",
+    "3D Steel LED Letter in Delhi",
+    "3D LED Letter in Delhi",
+    "3D Steel Letter in Delhi",
+    "Steel LED Letters Delhi",
+    "Custom 3D Steel LED Letters Delhi",
+    "3D Signage Delhi",
+    "LED Letter Manufacturer Delhi",
+    "Outdoor LED Letters Delhi",
+    "Indoor LED Letters Delhi",
+    "Business Signage Delhi",
+    "Metal LED Letters Delhi",
+    "3D Sign Board Manufacturer Delhi",
+    "Brand Signage Delhi",
+    "Sign Board Fabrication Delhi",
+    "Skysignage Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/3d-steel-led-letter"
+  },
+  openGraph: {
+    title: "3D Steel LED Letter Manufacturer in Delhi | Skysignage",
+    description: "Get high-quality 3D Steel LED Letters from the top manufacturer in Delhi. Boost your brand visibility with custom-made steel LED letters. Contact us now!",
+    url: "https://skysignage.in/3d-steel-led-letter",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/3d-steel-led-letter-og.jpg", // update with your actual OG image URL
+        width: 1200,
+        height: 630,
+        alt: "3D Steel LED Letter Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Steel LED Letter Manufacturer in Delhi | Skysignage",
+    description: "Boost your business with premium 3D Steel LED Letters in Delhi. Contact Skysignage for custom steel LED letters and signage solutions.",
+    images: ["https://skysignage.in/assets/images/3d-steel-led-letter-twitter.jpg"] // update with your actual Twitter image URL
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

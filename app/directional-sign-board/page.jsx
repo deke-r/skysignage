@@ -1,3 +1,65 @@
+export const metadata = {
+  title: "Directional Sign Board Manufacturer in Delhi - SkySignage",
+  description: "Skysignage is the leading directional sign board manufacturer in Delhi. Let's discuss your directional signage needs. Contact us now at +91-9311405211.",
+  keywords: [
+    "Directional Sign Board Manufacturer in Delhi",
+    "Directional Sign Board in Delhi",
+    "Directional Signage Manufacturer in Delhi",
+    "Directional Signage in Delhi",
+    "Wayfinding signs Delhi",
+    "Custom directional signs Delhi",
+    "Outdoor directional signage Delhi",
+    "Indoor directional sign boards Delhi",
+    "Signage solutions Delhi",
+    "Traffic directional signs Delhi",
+    "Directional signage company Delhi",
+    "Sign board manufacturer Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/directional-sign-board"
+  },
+  openGraph: {
+    title: "Directional Sign Board Manufacturer in Delhi | SkySignage",
+    description: "Skysignage is your trusted directional sign board manufacturer in Delhi. Get customized directional signage solutions. Call +91-9311405211 today.",
+    url: "https://skysignage.in/directional-sign-board",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/directional-sign-board-og.jpg", // replace with actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Directional Sign Board Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Directional Sign Board Manufacturer in Delhi | SkySignage",
+    description: "Top directional sign board manufacturer in Delhi. Custom solutions to guide your customers effectively. Contact SkySignage now.",
+    images: ["https://skysignage.in/assets/images/directional-sign-board-twitter.jpg"] // replace with actual twitter image URL
+  },
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Skysignage",
+    "url": "https://skysignage.in/directional-sign-board",
+    "logo": "https://skysignage.in/assets/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9311405211",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    },
+    "sameAs": [
+      // Add social profiles if any
+    ]
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

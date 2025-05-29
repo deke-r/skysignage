@@ -1,3 +1,54 @@
+export const metadata = {
+  title: "Glow Sign Board Manufacturer in Delhi - Skysignage",
+  description: "Skysignage is the top Glow Sign Board Manufacturer in Delhi. Get your brand noticed with colorful, eye-catching signs. Contact us today!",
+  keywords: [
+    "Glow Sign Board Manufacturer in Delhi",
+    "Glow Sign Board in Delhi",
+    "Glow Sign Board in Delhi NCR",
+    "LED Glow Sign Board Delhi",
+    "Custom Glow Sign Boards Delhi",
+    "Outdoor Glow Signage Delhi",
+    "Indoor Glow Signage Delhi",
+    "Colorful Glow Sign Boards Delhi NCR",
+    "Advertising Glow Signs Delhi",
+    "Glow Sign Fabrication Delhi",
+    "Sign Board Manufacturer Delhi NCR",
+    "Brand Signage Delhi",
+    "Retail Glow Signs Delhi",
+    "Skysignage Glow Sign Boards",
+    "Illuminated Signage Delhi NCR",
+    "Business Glow Sign Board Delhi",
+    "Glow Sign Installation Delhi",
+    "Signage Solutions Delhi NCR"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/glow-signboard"
+  },
+  openGraph: {
+    title: "Glow Sign Board Manufacturer in Delhi - Skysignage",
+    description: "Get vibrant and colorful Glow Sign Boards manufactured by Skysignage, Delhi’s leading signage company. Make your brand stand out!",
+    url: "https://skysignage.in/glow-signboard",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/glow-signboard-og.jpg", // replace with actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Glow Sign Board by Skysignage"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Glow Sign Board Manufacturer in Delhi - Skysignage",
+    description: "Top Glow Sign Board manufacturer in Delhi offering custom, vibrant glow signboards for your business. Contact Skysignage now!",
+    images: ["https://skysignage.in/assets/images/glow-signboard-twitter.jpg"] // replace with actual image URL
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

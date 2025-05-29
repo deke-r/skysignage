@@ -1,3 +1,47 @@
+export const metadata = {
+  title: "3D Brass LED Letter Manufacturer in Delhi",
+  description: "Skysignage is a leading 3D brass LED letter manufacturer in Delhi. We offer bespoke signage solutions. Request a quote now for quality work. Call now on 9311405211",
+  keywords: [
+    "3D brass LED letter manufacturer in Delhi",
+    "3D brass LED letter in Delhi",
+    "3D brass LED letter signage in Delhi",
+    "Brass LED letters Delhi",
+    "Custom brass LED signage Delhi",
+    "3D metal LED letters Delhi",
+    "Brass signage manufacturer Delhi",
+    "LED letter fabricators Delhi",
+    "Brass illuminated letters Delhi",
+    "Custom 3D signage Delhi",
+    "Premium brass signage Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/3d-brass-signboard"
+  },
+  openGraph: {
+    title: "3D Brass LED Letter Manufacturer in Delhi | Skysignage",
+    description: "Top 3D brass LED letter manufacturer in Delhi offering bespoke signage solutions. Contact Skysignage for premium quality signage. Call 9311405211.",
+    url: "https://skysignage.in/3d-brass-signboard",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/3d-brass-signboard-og.jpg", // replace with your actual OG image URL
+        width: 1200,
+        height: 630,
+        alt: "3D Brass LED Letter Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Brass LED Letter Manufacturer in Delhi | Skysignage",
+    description: "Skysignage offers premium 3D brass LED letter manufacturing in Delhi. Request your custom signage quote today! Call 9311405211.",
+    images: ["https://skysignage.in/assets/images/3d-brass-signboard-twitter.jpg"] // replace with actual Twitter image URL
+  }
+};
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

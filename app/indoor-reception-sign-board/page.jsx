@@ -1,3 +1,47 @@
+export const metadata = {
+  title: "Indoor Reception Sign Board Manufacturer in Delhi",
+  description: "Find the finest indoor reception sign board manufacturer in Delhi for welcoming and guiding guests efficiently. Contact SkySignage & request a free consultation.",
+  keywords: [
+    "Indoor Reception Sign Board Manufacturer in Delhi",
+    "Indoor Reception Sign Board in Delhi",
+    "Reception Sign Board Manufacturer in Delhi",
+    "Reception Sign Board in Delhi",
+    "Indoor signage Delhi",
+    "Reception signage Delhi",
+    "Custom indoor sign boards Delhi",
+    "Office reception sign boards Delhi",
+    "Indoor wayfinding signage Delhi",
+    "Reception area signage Delhi",
+    "Corporate signage Delhi",
+    "Custom reception signs Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/indoor-reception-sign-board"
+  },
+  openGraph: {
+    title: "Indoor Reception Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Top indoor reception sign board manufacturer in Delhi offering custom signage solutions to efficiently welcome and guide your guests. Contact Skysignage now.",
+    url: "https://skysignage.in/indoor-reception-sign-board",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/indoor-reception-signboard-og.jpg", // replace with your actual OG image URL
+        width: 1200,
+        height: 630,
+        alt: "Indoor Reception Sign Board Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Indoor Reception Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Efficient indoor reception sign board manufacturer in Delhi. Enhance your office reception area with custom signage. Contact Skysignage today.",
+    images: ["https://skysignage.in/assets/images/indoor-reception-signboard-twitter.jpg"] // replace with actual Twitter image URL
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

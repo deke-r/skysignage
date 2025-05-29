@@ -1,3 +1,54 @@
+export const metadata = {
+  title: "Neon Signage in Gurgaon | Neon Sign Board Manufacturers in Gurgaon | Technology Signage in Gurgaon | Real-Estate Signage Company in Gurgaon Delhi",
+  description: "Skysignage is a leading neon sign board manufacturer in Gurgaon. We provide vibrant neon signage, technology signage, and real estate signage solutions to make your brand shine.",
+  keywords: [
+    "Neon Signage Gurgaon",
+    "Neon Sign Board Manufacturers Gurgaon",
+    "Technology Signage Gurgaon",
+    "Real Estate Signage Gurgaon",
+    "Neon Signs Gurgaon",
+    "LED Neon Signs Gurgaon",
+    "Custom Neon Sign Boards Gurgaon",
+    "Outdoor Neon Signage Gurgaon",
+    "Indoor Neon Signage Gurgaon",
+    "Neon Sign Fabrication Gurgaon",
+    "Signage Company Gurgaon",
+    "Sign Board Manufacturers Gurgaon",
+    "Real Estate Sign Boards Gurgaon",
+    "Business Neon Signs Gurgaon",
+    "Gurgaon Signage Services",
+    "Signage Solutions Gurgaon",
+    "Skysignage Gurgaon",
+    "Brand Signage Gurgaon",
+    "Advertising Neon Signs Gurgaon"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/neon-signboard"
+  },
+  openGraph: {
+    title: "Neon Signage in Gurgaon | Skysignage",
+    description: "Get vibrant neon signage and real estate sign boards from top manufacturers in Gurgaon. Skysignage delivers custom technology signage to boost your brand.",
+    url: "https://skysignage.in/neon-signboard",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/neon-signboard-og.jpg", // update with your actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Neon Signage by Skysignage Gurgaon"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Neon Signage in Gurgaon | Skysignage",
+    description: "Leading neon sign board manufacturers in Gurgaon offering custom neon and technology signage solutions. Contact Skysignage today!",
+    images: ["https://skysignage.in/assets/images/neon-signboard-twitter.jpg"] // update with your actual image URL
+  }
+};
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";

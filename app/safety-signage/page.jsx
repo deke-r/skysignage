@@ -1,3 +1,67 @@
+export const metadata = {
+  title: "Safety Sign Board Manufacturer in Delhi",
+  description: "Get the Best Safety Sign Board Manufacturer in Delhi. Protecting Lives, Safety First, Always. Request Your Quote Today. Call Us at +91 9311405211 for Safety Signs.",
+  keywords: [
+    "Safety Sign Board Manufacturer in Delhi",
+    "Safety Sign Board in Delhi",
+    "Safety Signage Manufacturer in Delhi",
+    "Safety Signage in Delhi",
+    "Industrial safety signs Delhi",
+    "Workplace safety boards Delhi",
+    "Safety warning signs Delhi",
+    "Custom safety sign boards Delhi",
+    "Health and safety signage Delhi",
+    "Construction safety signs Delhi",
+    "Emergency safety signage Delhi",
+    "Warning and hazard signs Delhi"
+  ].join(", "),
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://skysignage.in/safety-signage"
+  },
+  openGraph: {
+    title: "Safety Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Protect your workplace with top-quality safety sign boards from Skysignage, the trusted manufacturer in Delhi. Call +91 9311405211 for a quote.",
+    url: "https://skysignage.in/safety-signage",
+    images: [
+      {
+        url: "https://skysignage.in/assets/images/safety-signage-og.jpg", // Replace with actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Safety Sign Board Manufacturer Delhi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Safety Sign Board Manufacturer in Delhi | Skysignage",
+    description: "Trusted safety sign board manufacturer in Delhi. Protect lives with quality safety signage. Contact Skysignage today for a quote.",
+    images: ["https://skysignage.in/assets/images/safety-signage-twitter.jpg"] // Replace with actual Twitter image URL
+  },
+  // Structured Data (JSON-LD) placeholder - you can fill this according to your schema needs
+  jsonLd: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Skysignage",
+    "url": "https://skysignage.in/safety-signage",
+    "logo": "https://skysignage.in/assets/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91 9311405211",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    },
+    "sameAs": [
+      // Add your social profile URLs here if any
+    ]
+  }
+};
+
+
+
+
+
 import BannerC from "@/components/Banner-c";
 import OtherServices from "@/components/OtherServices";
 import ServiceSS from "@/components/ServiceSC";
