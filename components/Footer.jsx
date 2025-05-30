@@ -1,7 +1,34 @@
+'use client'
+
 import Link from "next/link"
 import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail, Globe } from "lucide-react"
+import { useForm } from "react-hook-form"
+import { useState } from "react"
+import axios from "axios"
 
 export default function Footer() {
+  const { register, handleSubmit, formState: { errors }, reset } = useForm()
+
+  const [submitStatus, setSubmitStatus] = useState(false)
+  const [resStatus, setResStatus] = useState(null) // null | 'success' | 'error'
+
+  const onSubmit = async (data) => {
+    setSubmitStatus(true)
+    setResStatus(null)
+
+    try {
+      const res = await axios.post('/api/contact-form-data', data)
+      console.log('res: ', res)
+      setResStatus('success')
+      reset()
+    } catch (error) {
+      console.log('error: ', error)
+      setResStatus('error')
+    } finally {
+      setSubmitStatus(false)
+    }
+  }
+
   return (
     <footer className="bg-dark text-white pt-0">
       <div className="container">
@@ -24,20 +51,48 @@ export default function Footer() {
               </div>
               <div className="col-lg-8 pl-lg-5 mt-6 mt-lg-0">
                 <h5 className="text-white">I would like to discuss:</h5>
-                <form className="mt-4" id="discussform">
+                <form className="mt-4" id="discussform" onSubmit={handleSubmit(onSubmit)}>
                   <div className="row">
-                    <div className="col-6">
-                      <input className="form-control" id="name" type="text" placeholder="Your Name" required />
+                    <div className="col-md-4">
+                      <input className="form-control" id="name" type="text" placeholder="Your Name"
+                        {...register("name", { required: 'Name is required' })} />
+                      {errors.name && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.name.message}</p>}
                     </div>
-                    <div className="col-6">
-                      <input className="form-control" id="mobile" type="number" placeholder="Phone Number" required />
+                    <div className="col-md-4">
+                      <input className="form-control" id="mobile" type="number" placeholder="Phone Number"
+                        {...register("mobile", {
+                          required: 'Mobile is required',
+                          pattern: {
+                            value: /^[6-9]\d{9}$/,
+                            message: "Enter a valid mobile number"
+                          }
+                        })} />
+                      {errors.mobile && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.mobile.message}</p>}
                     </div>
-                    <div className="col-6 mt-4">
-                      <input className="form-control" type="text" placeholder="Subject" id="subject" required />
+                    <div className="col-md-4">
+                      <input className="form-control" type="text" placeholder="Subject" id="subject"
+                        {...register("subject", { required: 'Subject is required' })} />
+                      {errors.subject && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.subject.message}</p>}
                     </div>
-                    <div className="col-6 mt-4">
-                      <button id="submit_btn" className="btn btn-warning btn-block w-100" type="submit">
-                        Submit
+                    <div className="col-12 mt-3">
+                      <textarea className="form-control" placeholder="Message" id="message"
+                        {...register("message", { required: 'Message is required' })} />
+                      {errors.message && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.message.message}</p>}
+                    </div>
+                    {resStatus === 'success' &&
+                    
+                    <div className="col-12 mt-2">
+
+                  
+                    <div className="alert alert-success" role="alert"><p>Your message has been sent successfully!</p></div>  </div>}
+                    {resStatus === 'error' && 
+                    <div className="col-12 mt-2 ">
+
+                    
+                    <div className="alert alert-danger" role="alert"><p>Something went wrong. Please try again.</p></div></div>}
+                    <div className="col-12 mt-3">
+                      <button className="btn btn-warning btn-block w-100" type="submit">
+                        {submitStatus ? <img src="/img/Double Ring@1x-1.0s-200px-200px.gif" width={25} /> : 'Submit'}
                       </button>
                     </div>
                   </div>
@@ -47,8 +102,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Widgets Section */}
-        <div className="widgets-section">
+      
+       <div className="widgets-section">
           <div className="row clearfix">
             <div className="col-md-6 col-sm-12 col-xs-12">
               <div className="row clearfix">
@@ -206,6 +261,23 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+        {/* Footer Bottom */}
+        <div className="footer-bottom bg-black py-3">
+          <div className="container">
+            <div className="row clearfix">
+              <div className="col-md-9 col-sm-12 col-xs-12">
+                <div className="text-white-50">
+                  Copyright © 2023 SKY SIGNAGE, All Right Reserved. Designed & developed by {" "}
+                  <a className="text-primary" href="https://skysignage.in/">
+                    Sky Signage Pvt. Ltd.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
     </footer>
   )
 }

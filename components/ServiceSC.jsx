@@ -1,12 +1,16 @@
 "use client"
 
 import { useState } from "react"
+import { useRouter } from "next/navigation"
+
+
 
 export default function ServiceSS({ title, description, image, content, extraHeading, extraP }) {
   const [showModal, setShowModal] = useState(false)
 
+  const router = useRouter()
   const handleEnquiry = () => {
-    setShowModal(true)
+    router.push('/contact')
   }
 
   return (

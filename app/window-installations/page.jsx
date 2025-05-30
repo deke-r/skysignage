@@ -82,7 +82,7 @@ const banner = {
 
 const servicesData = {
   title: "Our Other Services",
-  subtitle: "Explore Our Diverse Range<br> of Signboard Services",
+  subtitle: "Explore Our Diverse Range<br> of Visual Merchandising Services",
 services: [
   { title: "In-store Displays", link: "/in-store-displays" },
   { title: "Posters", link: "/posters" },
