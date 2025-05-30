@@ -1,5 +1,5 @@
 import Image from "next/image"
-import BlogCard from "./blog-card"
+import BlogCard from "./Blog-card"
 
 
 

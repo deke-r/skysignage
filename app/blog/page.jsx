@@ -46,7 +46,7 @@ export const metadata = {
 
 
 import BannerC from "@/components/Banner-c";
-import BlogPost from "@/components/Blog/Blog-post";
+import BlogPost from "../../components/Blog/Blog-post";
 
 const blogData = {
   post: {
