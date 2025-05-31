@@ -58,7 +58,7 @@ export default function HeroSlider() {
                 dangerouslySetInnerHTML={{ __html: slide.title }}
               />
               <div className={`button-group ${slide.isActive ? "animate-fade-slide-delay" : ""}`}>
-                <Link href="#" className="btn btn-outline-primary fw-semibold text-center rounded-pill me-3 ps-4 mt-3">
+                <Link href="/about" className="btn btn-outline-primary fw-semibold text-center rounded-pill me-3 ps-4 mt-3">
                   Read more <ChevronRight className="ms-2" size={16} />
                 </Link>
                 <Link href="/contact" className="btn btn-warning rounded-pill ps-4 fw-semibold mt-3">
