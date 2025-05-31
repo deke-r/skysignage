@@ -9,6 +9,7 @@ import Bootstrap from '../libs/Bootstrap';
 import Navbar from '@/components/Navbar';
 import TopBar from '@/components/TopBar';
 import Footer from '@/components/Footer';
+import TawkToWidget from '@/components/TawkToWidget';
 
 export default function RootLayout({ children }) {
   const [theme, setTheme] = useState('light');
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="d-flex flex-column min-vh-100">
+        <TawkToWidget/>
         <Bootstrap />
         <TopBar/>
         <Navbar />
