@@ -53,12 +53,12 @@ export default function Footer() {
                 <h5 className="text-white">I would like to discuss:</h5>
                 <form className="mt-4" id="discussform" onSubmit={handleSubmit(onSubmit)}>
                   <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 my-2">
                       <input className="form-control" id="name" type="text" placeholder="Your Name"
                         {...register("name", { required: 'Name is required' })} />
                       {errors.name && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.name.message}</p>}
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 my-2">
                       <input className="form-control" id="mobile" type="number" placeholder="Phone Number"
                         {...register("mobile", {
                           required: 'Mobile is required',
@@ -69,7 +69,7 @@ export default function Footer() {
                         })} />
                       {errors.mobile && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.mobile.message}</p>}
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 my-2">
                       <input className="form-control" type="text" placeholder="Subject" id="subject"
                         {...register("subject", { required: 'Subject is required' })} />
                       {errors.subject && <p className="text-danger f_13 fw-semibold ms-1 mt-1">{errors.subject.message}</p>}
