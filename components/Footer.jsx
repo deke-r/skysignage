@@ -246,21 +246,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
-      <div className="footer-bottom bg-black py-3">
-        <div className="container">
-          <div className="row clearfix">
-            <div className="col-md-9 col-sm-12 col-xs-12">
-              <div className="text-white-50">
-                Copyright © 2023 SKY SIGNAGE, All Right Reserved. Designed & developed by{" "}
-                <a className="text-primary" href="https://skysignage.in/">
-                  Sky Signage Pvt. Ltd.
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
         {/* Footer Bottom */}
         <div className="footer-bottom bg-black py-3">

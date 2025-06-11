@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { useState } from "react"
 
 
@@ -78,12 +79,15 @@ export default function ServicesSection() {
                   <div className="overflow-hidden">
                     <p className="mt-3">{service.description}</p>
                     <div className="mt-4">
+                      <Link href='/contact'>
+                      
                       <button
                         className="btn btn-outline-primary rounded-pill"
-                        onClick={() => alert(`Enquiry for ${service.title}`)}
+                        
                       >
                         Enquiry Now
                       </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
